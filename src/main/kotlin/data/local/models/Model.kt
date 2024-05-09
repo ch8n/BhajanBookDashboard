@@ -30,15 +30,19 @@ data class DeityItem(
     val youtubeLink: Any? = null // null
 )
 
-data class HoroscopeItem(
-    @SerializedName("date_group")
-    val dateGroup: String? = null, // Mar-21 to Apr-20
+data class HoroscopeItemDTO(
+
     @SerializedName("id")
     val id: Int? = null, // 1
-    @SerializedName("image_url")
-    val imageUrl: String? = null, // 1sMon4gFLF8AY2WgAh2uCn7VJQXaLP2_aries
     @SerializedName("name")
     val name: String? = null, // Aries
+
+    @SerializedName("date_group")
+    val dateGroup: String? = null, // Mar-21 to Apr-20
+
+    @SerializedName("image_url")
+    val imageUrl: String? = null, // 1sMon4gFLF8AY2WgAh2uCn7VJQXaLP2_aries
+
     @SerializedName("sheet_name")
     val sheetName: String? = null // aries
 )

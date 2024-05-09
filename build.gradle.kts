@@ -23,6 +23,9 @@ dependencies {
     implementation(compose.desktop.currentOs)
     implementation("org.eclipse.jgit:org.eclipse.jgit:6.8.0.202311291450-r")
     implementation("com.google.code.gson:gson:2.8.9")
+    implementation("media.kamel:kamel-image:0.9.4")
+    implementation("io.ktor:ktor-client-core:2.3.10")
+    implementation("io.ktor:ktor-client-cio:2.3.10")
 
 }
 
